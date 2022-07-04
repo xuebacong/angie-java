@@ -9,7 +9,8 @@ public class app {
                     .setHeaders("Content-Type", "text/html")
                     .send("<h1> Hello, web framework! </h1>");
         });
-
+        int a;
+        int b;
         app.listen(80);
     }
 }
