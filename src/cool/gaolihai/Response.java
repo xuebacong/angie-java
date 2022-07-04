@@ -5,6 +5,7 @@ import java.io.OutputStream;
 import java.util.HashMap;
 
 public class Response {
+    int a;
     private OutputStream outputStream;
     private HashMap<String, String> headers = new HashMap<>();
     private int status;
